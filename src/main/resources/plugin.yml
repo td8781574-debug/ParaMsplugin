@@ -1,0 +1,11 @@
+name: ParaTagPlugin
+version: 1.0.0
+main: com.sunucu.paratag.ParaTagPlugin
+api-version: 1.21
+author: SeninSunucun
+depend: [Vault]
+
+commands:
+  paratag:
+    description: ParaTag ayarlarini yeniden yukler
+    usage: /paratag reload
